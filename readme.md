@@ -93,3 +93,14 @@ Use pipe() for efficient data transfer
 Handle errors with .on('error')
 Close streams after use
 Monitor memory consumption
+
+
+------------------------------------------------------
+
+Node modules behind the scene 
+each js file is treated as a seperated module.
+
+Node.js used the common js module system : require () ,export or module.exports;
+
+es module system is used in browser : import /export 
+
